@@ -51,6 +51,7 @@ drizzle/                          generated migrations
 tests/unit, tests/integration     Vitest (node env by default; *.test.tsx is jsdom)
 tests/e2e                         Playwright against its own `next dev`
 docs/mcp.md                       registering both MCP servers with Claude Code
+.github/workflows/ci.yml          CI on PRs and main: lint, Vitest, build, Playwright minus the LLM spec, no real secrets
 .agents/skills/ (+ .claude/skills/ copy)   ai-tutor-design, ai-tutor-cli, add-app-to-server, copilotkit, mastra
 .tours/                           CodeTours the README points at
 ```
